@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+h1{
+    font-family:serif;
+    margin-top: 55px;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+.Menu {
+    width: 100%;
+
+}
+.Menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+}
+.Menu ul li{
+    margin: 15px;
+    transition: 1s;
+    height: 10px;
+    
+}
+
+.Menu ul li:hover{
+    letter-spacing: 4px;
+    font-size: 16pt;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.Menu ul li a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.BackToTop a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.BackToTop{
+    margin-top: 70px;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-family:sans-serif;
+    opacity: 0.5;
+}
+
+.RedesSociales{
+    width: 100%
+}
+
+.RedesSociales ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.RedesSociales ul li{
+    margin-left:5px;
+    margin-right: 5px;
+    opacity: 0.5;
+}
+
+.RedesSociales ul li:hover{
+    opacity: 1;
+}
+
+.ImagenPortada{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: black;
+
+}
+
+.ImagenPortada p{
+    position: absolute;
+    left: 0;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 55pt;
+    opacity: 0;
+    font-family:sans-serif
+    transition: 1s;
+    color: white;
+}
+.ImagenPortada:hover p{    
+    opacity: 1;
+    transition: 1s;
+}
+.ImagenPortada img{
+    position: absolute;
+    transition: 1s;
+    top: -100px;
+}
+.ImagenPortada:hover img{
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.ImagenPortada:hover p a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.Copyright{
+    margin-top: 60px;
+    height: 20px;
+    text-align: center;
+    opacity: 0.4;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+h1{
+    font-family:serif;
+    margin-top: 55px;
+    letter-spacing: 2px;
+    text-align: center;
+    
+    
+}
+
+h1 a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.Construccion p{
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-size: 24pt;
+    height: 50px;
+    
+margin-top: 24px;
+}
+
+.Yo img{
+    max-width: 340px;
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.Volver{
+    text-align: center;
+    color: black;
+    font-family:serif;
+    font-size: 18pt;
+    margin-top: 40px;
+    height: 10px;
+}
+
+.Volver a{
+    color: black;
+    text-decoration-line: none;
+}
+
+.Copyright{
+    margin-top: 60px;
+    height: 20px;
+    text-align: center;
+    opacity: 0.4;
+}
